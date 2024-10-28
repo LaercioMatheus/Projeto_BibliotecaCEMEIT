@@ -1,0 +1,14 @@
+Definição dos requisitos 
+Identificar os tipos de dados que o banco irá armazenar:
+Info básica: Nome do livro, autor, tipo, gênero, quantidade no acervo, quantidade disponível. (Stringm, String, String, String, int, int)
+	Info técnica: Data de recebimento, data de empréstimo, data prevista para devolução, data de retorno. (Date)
+	Multa de juros compostos: Double.
+
+Leitura do qr code (alunos): Informações básicas (Nome, tipo - Literário ou Didático, Gênero, autor, Quantidade no acervo, quantidade disponível, versão digital) (String, String, String, int, int, String)
+	- Para administrador: Informações básicas, Informações técnicas (Histórico de empréstimos, fila de espera), editar acervo 
+- Informações vão para o registro geral: Todas as informações, e históricos de todos os livros (Registros feitos semanalmente) 
+
+Separar as funções fundamentais do banco de dados (As básicas e as que serão implementadas ao longo do desenvolvimento do sistema) 
+Listar entidades principais
+Definir atributos para cada entidade
+Identificar as relações entre as entidades
